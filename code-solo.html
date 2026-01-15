@@ -11,3 +11,60 @@
     <div class="box" id="ind_box3">C</div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transforms Independent Activity</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        
+        .box {
+            width: 100px; 
+            height: 100px;
+            background-color: #3498db;
+            color: hwb(199 41% 53% / 0.978);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin: 40px 0; 
+            border-radius: 8px;
+            transition: transform 0.3s;  
+        }
+
+        
+        #ind_box1 {
+            transform: rotate(45deg);
+            background-color: #e74c3c;
+        }
+
+        #ind_box2 {
+            transform: scale(1.5);
+            background-color: #2ecc71;
+        }
+
+        #ind_box3 {
+            transform: translate(50px, 20px);
+            background-color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Home</a>
+
+    <div class="box" id="ind_box1">A</div>
+    <div class="box" id="ind_box2">B</div>
+    <div class="box" id="ind_box3">C</div>
+</body>
+</html>
+
